@@ -72,7 +72,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   } catch(error) {
     console.log(error)
-    return res.status(400).end
+    return res.status(400).end()
   }
 
 }
